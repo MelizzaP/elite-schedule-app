@@ -6,13 +6,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { MyTeams, Tournaments } from '../pages/pages';
 
 @Component({
-    templateUrl: 'app.html'
+    templateUrl: 'app.html',
 })
 export class MyApp {
     @ViewChild(Nav) nav: Nav;
 
     rootPage: any = MyTeams;
-
 
     constructor(
         public platform: Platform,
